@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url("back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.72);
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 22px;
+    font-size: 38px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.title-line {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-line h2 {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    letter-spacing: 1px;
+}
+
+.hero {
+    padding-top: 45px;
+}
+
+.hero p,
+.featured p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.8;
+}
+
+.main-image {
+    width: 380px;
+    max-width: 90%;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.18);
+}
+
+.featured-image {
+    width: 380px;
+    max-width: 90%;
+    border-radius: 18px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.18);
+}
+
+.home-button {
+    display: inline-block;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.home-button:hover {
+    background: white;
+}
+
+.products-grid {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 220px;
+    margin: 12px;
+    padding: 15px;
+    text-align: center;
+    background: rgba(255,255,255,0.08);
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+    vertical-align: top;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background: rgba(255,255,255,0.15);
+}
+
+.card h3 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.card ul {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+form {
+    background: transparent;
+    padding: 0;
+    max-width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    background: #38bdf8;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: white;
+}
+
+.order-box {
+    max-width: 430px;
+    margin: 30px auto;
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    border-radius: 18px;
+}
+
+.order-product {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.order-product img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.order-product h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.order-product p {
+    margin-bottom: 10px;
+}
+
+video {
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.15);
+    max-width: 85%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    margin-top: 30px;
+    font-size: 14px;
+}

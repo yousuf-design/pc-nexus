@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<div class="overlay">
+
+<header>Order Now</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="order.html">Order</a>
+<a href="about.html">About</a>
+</nav>
+
+<section>
+    <h2>Complete Your Order</h2>
+
+    <div class="order-box">
+        <div class="order-product">
+            <img id="productImage" src="1.png" alt="Selected Product">
+            <h3 id="productName">Gaming PC</h3>
+            <p id="productPrice">Price: 500 OMR</p>
+        </div>
+
+        <form name="myform">
+            <label>Full Name:</label>
+            <input type="text" name="fullname" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Selected Product:</label>
+            <input type="text" name="selectedProduct" id="selectedProduct" readonly>
+
+            <label>Price:</label>
+            <input type="text" name="priceText" id="priceText" readonly>
+
+            <label>Payment Method:</label>
+            <select id="paymentMethod" required>
+                <option value="">Select Payment Method</option>
+                <option value="Cash">Cash</option>
+                <option value="Card">Card</option>
+            </select>
+
+            <button type="button" onclick="calc()">Confirm Order</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 PC Nexus | Created by YOUSUF</p>
+</footer>
+
+</div>
+</body>
+</html>
